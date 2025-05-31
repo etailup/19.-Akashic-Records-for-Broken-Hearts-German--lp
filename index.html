@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💖 Akasha-Chronik für Gebrochene Herzen - GRATIS Leitfaden!</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-shadow { box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
+        .btn-hover:hover { transform: translateY(-2px); transition: all 0.3s ease; box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+        .pulse-animation { animation: pulse 2s infinite; }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .icon-bg-gradient { background: linear-gradient(135deg, #8b5cf6 0%, #c084fc 100%); } /* Adjusted purple gradient for icons */
+        .feature-icon-bg { background: linear-gradient(135deg, #a78bfa, #7c3aed); }
+        .feature-card:hover { transform: translateY(-5px); transition: transform 0.3s ease-in-out; }
+    </style>
+</head>
+<body class="bg-gray-50">
+
+    <!-- Hero Section -->
+    <div class="gradient-bg min-h-screen flex items-center justify-center px-4 py-16 md:py-20">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+
+                <!-- Left Column - Content -->
+                <div class="text-white">
+                    <div class="mb-6">
+                        <span class="bg-yellow-400 text-gray-900 px-4 py-2 rounded-full text-sm font-semibold shadow-lg">
+                            <i class="fas fa-gift mr-2"></i>KOSTENLOSER LEITFADEN
+                        </span>
+                    </div>
+
+                    <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                        <span class="block">Akasha-Chronik</span>
+                        <span class="block text-yellow-300">für Gebrochene Herzen</span>
+                        <span class="block">7 Schlüssel zur Heilung</span>
+                    </h1>
+
+                    <p class="text-xl mb-8 text-gray-200">
+                        Entdecke, wie du karmische Bindungen löst, Herzschmerz überwindest und emotionale Freiheit findest – auch bei toxischen Beziehungen, Liebessucht und gestörten Zwillingsseelen. ✨🗝️💖
+                    </p>
+
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center">
+                            <i class="fas fa-key text-green-400 mr-3 text-xl"></i>
+                            <span>Die 7 Schlüssel zur Auflösung karmischer Muster</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-book-open-reader text-green-400 mr-3 text-xl"></i>
+                            <span>Verständnis der Akasha-Chronik für tiefe Einsichten</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-heart-crack text-green-400 mr-3 text-xl"></i>
+                            <span>Heilung von emotionalen Wunden & toxischen Beziehungen</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-hands-holding-heart text-green-400 mr-3 text-xl"></i>
+                            <span>Praktische Schritte zu Selbstliebe und innerem Frieden</span>
+                        </div>
+                    </div>
+
+                    <div class="text-2xl font-bold text-yellow-300">
+                        100% GRATIS - Keine versteckten Kosten!
+                    </div>
+                </div>
+
+                <!-- Right Column - Form -->
+                <div id="form-container" class="bg-white rounded-2xl p-8 card-shadow">
+                    <div class="text-center mb-6">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                            Lade Deinen Leitfaden Jetzt Herunter!
+                        </h3>
+                        <p class="text-gray-600">
+                            Trage deine Daten ein und erhalte sofortigen Zugang.
+                        </p>
+                    </div>
+
+                    <form id="leadForm" class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-user mr-2 text-purple-600"></i>Vollständiger Name
+                            </label>
+                            <input type="text" id="name" name="name" required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200"
+                                   placeholder="Dein vollständiger Name">
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                                <i class="fas fa-envelope mr-2 text-purple-600"></i>E-Mail-Adresse
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent transition duration-200"
+                                   placeholder="deine.email@beispiel.com">
+                        </div>
+
+                        <!-- Hidden Fields -->
+                        <input type="hidden" id="language" name="language" value="German">
+                        <input type="hidden" name="book_title" value="Akasha-Chronik für Gebrochene Herzen: 7 Schlüssel um Karmische Bindungen zu Zerstören zwischen Toxischen Beziehungen, Liebessucht und Gestörten Zwillingsseelen">
+                        <input type="hidden" name="main_category" value="Relationships">
+                        <input type="hidden" name="author" value="Jessica K.">
+                        <input type="hidden" name="number_title" value="19. Akashic Records for Broken Hearts">
+                        <input type="hidden" name="number_title_language" value="19. Akashic Records for Broken Hearts (German)">
+                        <input type="hidden" name="extra_folder_link" value="https://drive.google.com/drive/folders/1hTfiAm5MZ7alwLZFgUWZ8PrXwsrkGNfC">
+                        <input type="hidden" name="extra_pdf_link" value="https://drive.google.com/uc?export=download&id=1hckWSdTtgDkhDltiVgfIa9Bt6ZGN7SMY">
+                        <input type="hidden" name="review_link" value="https://pxl.to/19-acfgh-jk-de-review">
+
+
+                        <button type="submit"
+                                class="w-full bg-gradient-to-r from-purple-600 to-pink-500 text-white font-bold py-4 px-6 rounded-lg btn-hover pulse-animation">
+                            <i class="fas fa-download mr-2"></i>
+                            JETZT GRATIS HERUNTERLADEN
+                        </button>
+                    </form>
+
+                    <div class="mt-6 text-center">
+                        <p class="text-xs text-gray-500">
+                            <i class="fas fa-lock mr-1"></i>
+                            Deine Daten sind sicher und werden niemals weitergegeben.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                    Was Du im Leitfaden entdecken wirst
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Ein tiefgehender Wegweiser zur Heilung deines Herzens und zur Befreiung von karmischen Lasten und emotionalen Verstrickungen.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center p-6 rounded-xl bg-purple-50 feature-card card-shadow">
+                    <div class="w-20 h-20 feature-icon-bg rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
+                        <i class="fas fa-book-journal-whills text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-purple-700">Akasha-Chronik verstehen</h3>
+                    <p class="text-gray-600">
+                        Erfahre, wie du auf die Akasha-Chronik zugreifst, um die Wurzeln deiner Beziehungsmuster und karmischen Verbindungen zu erkennen.
+                    </p>
+                </div>
+
+                <div class="text-center p-6 rounded-xl bg-pink-50 feature-card card-shadow">
+                     <div class="w-20 h-20 feature-icon-bg rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg" style="background: linear-gradient(135deg, #ec4899, #d946ef);">
+                        <i class="fas fa-spa text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-pink-700">Heilung für Dein Herz</h3>
+                    <p class="text-gray-600">
+                        Praktische Techniken, Meditationen und Übungen, um emotionalen Schmerz zu lindern und tiefe Selbstliebe zu kultivieren.
+                    </p>
+                </div>
+
+                <div class="text-center p-6 rounded-xl bg-indigo-50 feature-card card-shadow">
+                    <div class="w-20 h-20 feature-icon-bg rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg" style="background: linear-gradient(135deg, #818cf8, #6366f1);">
+                        <i class="fas fa-link-slash text-white text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3 text-indigo-700">Karmische Fesseln lösen</h3>
+                    <p class="text-gray-600">
+                        Lerne, toxische Beziehungen zu beenden, Liebessucht zu überwinden und Klarheit über Zwillingsseelen-Verbindungen zu gewinnen.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials Section -->
+    <div class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">
+                    Das sagen begeisterte Leser
+                </h2>
+                 <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                    Echte Erfahrungen von Menschen, die ihren Weg zur Heilung gefunden haben.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-xl card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center mr-4 text-white font-bold text-xl shadow-md">
+                            A
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Anna M.</h4>
+                            <p class="text-gray-600 text-sm">Nach einer schmerzhaften Trennung</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Dieser Leitfaden war ein Wendepunkt. Ich habe endlich verstanden, warum ich immer wieder in dieselben Beziehungsmuster geraten bin. Die Übungen haben mir geholfen, alten Schmerz loszulassen und mich selbst neu zu entdecken."
+                    </p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-xl card-shadow">
+                    <div class="flex items-center mb-4">
+                        <div class="w-14 h-14 bg-gradient-to-br from-indigo-500 to-blue-500 rounded-full flex items-center justify-center mr-4 text-white font-bold text-xl shadow-md">
+                            S
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-lg text-gray-800">Stefan B.</h4>
+                            <p class="text-gray-600 text-sm">Auf der Suche nach Antworten</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">
+                        "Ich war skeptisch, aber dieser Guide ist so klar und praktisch. Er hat mir geholfen, eine tiefere Verbindung zu mir selbst aufzubauen und toxische Verbindungen nicht nur zu erkennen, sondern auch aktiv zu lösen. Sehr empfehlenswert!"
+                    </p>
+                    <div class="mt-4 text-yellow-500">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Final CTA -->
+    <div class="gradient-bg py-20">
+        <div class="max-w-4xl mx-auto text-center px-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                Bist Du bereit, Dein Herz zu heilen?
+            </h2>
+            <p class="text-xl text-gray-200 mb-10">
+                Über 1.000 Menschen haben bereits begonnen, ihre karmischen Fesseln zu sprengen.
+                Lade jetzt Deinen kostenlosen Leitfaden herunter und starte Deine Transformationsreise!
+            </p>
+            <a href="#leadForm" class="inline-block bg-yellow-400 text-gray-900 font-bold py-4 px-10 rounded-lg btn-hover text-lg shadow-xl">
+                <i class="fas fa-heart-pulse mr-2"></i>
+                GRATIS LEITFADEN SICHERN
+            </a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Akasha-Chronik für Gebrochene Herzen. Alle Rechte vorbehalten.</p>
+            <p class="text-gray-400 text-sm mt-2">
+                Autorin: Jessica K.
+            </p>
+            <p class="text-gray-400 text-sm mt-2">
+                <i class="fas fa-shield-alt mr-1"></i>
+                Deine Daten sind sicher und geschützt.
+            </p>
+        </div>
+    </footer>
+
+<script>
+    document.getElementById('leadForm').addEventListener('submit', async function(e) {
+        e.preventDefault();
+
+        const submitButton = e.target.querySelector('button[type="submit"]');
+        const originalButtonHTML = submitButton.innerHTML;
+
+        // Basic client-side validation
+        let isValid = true;
+        const nameInput = document.getElementById('name');
+        const emailInput = document.getElementById('email');
+
+        // Clear previous error messages
+        nameInput.classList.remove('border-red-500');
+        emailInput.classList.remove('border-red-500');
+        const existingErrorMessages = e.target.querySelectorAll('.error-message');
+        existingErrorMessages.forEach(msg => msg.remove());
+
+        if (nameInput.value.trim().length < 2) {
+            isValid = false;
+            nameInput.classList.add('border-red-500');
+            const errorMsg = document.createElement('p');
+            errorMsg.className = 'error-message text-red-500 text-xs mt-1';
+            errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Name muss mind. 2 Zeichen lang sein.';
+            nameInput.parentNode.insertBefore(errorMsg, nameInput.nextSibling);
+        }
+
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(emailInput.value)) {
+            isValid = false;
+            emailInput.classList.add('border-red-500');
+            const errorMsg = document.createElement('p');
+            errorMsg.className = 'error-message text-red-500 text-xs mt-1';
+            errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Bitte eine gültige E-Mail-Adresse eingeben.';
+            emailInput.parentNode.insertBefore(errorMsg, emailInput.nextSibling);
+        }
+
+        if (!isValid) {
+            submitButton.innerHTML = '<i class="fas fa-exclamation-triangle mr-2"></i>BITTE DATEN PRÜFEN';
+            submitButton.classList.remove('from-purple-600', 'to-pink-500');
+            submitButton.classList.add('bg-orange-500');
+            setTimeout(() => {
+                submitButton.innerHTML = originalButtonHTML;
+                submitButton.classList.remove('bg-orange-500');
+                submitButton.classList.add('from-purple-600', 'to-pink-500');
+            }, 3000);
+            return;
+        }
+
+        // Show loading state
+        submitButton.innerHTML = '<i class="fas fa-spinner fa-spin mr-2"></i>SENDET...';
+        submitButton.disabled = true;
+        submitButton.classList.remove('from-purple-600', 'to-pink-500');
+        submitButton.classList.add('bg-gray-500', 'cursor-not-allowed');
+
+
+        const formData = {
+            name: nameInput.value,
+            email: emailInput.value,
+            language: document.getElementById('language').value,
+            book_title: document.querySelector('input[name="book_title"]').value,
+            main_category: document.querySelector('input[name="main_category"]').value,
+            author: document.querySelector('input[name="author"]').value,
+            number_title: document.querySelector('input[name="number_title"]').value,
+            number_title_language: document.querySelector('input[name="number_title_language"]').value,
+            extra_folder_link: document.querySelector('input[name="extra_folder_link"]').value,
+            extra_pdf_link: document.querySelector('input[name="extra_pdf_link"]').value,
+            review_link: document.querySelector('input[name="review_link"]').value
+        };
+
+        try {
+            const response = await fetch('https://hook.integrator.boost.space/mqntylhrehljw4p5tkxjpxj28icglsot', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (response.ok) {
+                submitButton.innerHTML = '<i class="fas fa-check-circle mr-2"></i>ERFOLGREICH! Weiterleitung...';
+                submitButton.classList.remove('bg-gray-500', 'cursor-not-allowed');
+                submitButton.classList.add('bg-green-500');
+
+                setTimeout(() => {
+                    window.location.href = 'https://drive.google.com/uc?export=download&id=1hckWSdTtgDkhDltiVgfIa9Bt6ZGN7SMY';
+                }, 1200); // Delay for user to see success, then redirect
+
+            } else {
+                const errorData = await response.json().catch(() => ({ message: 'Unbekannter Serverfehler' }));
+                console.error('Server error:', response.status, errorData);
+                throw new Error(`Serverfehler: ${response.status} - ${errorData.message || 'Bitte später erneut versuchen.'}`);
+            }
+
+        } catch (error) {
+            console.error('Submission error:', error);
+            submitButton.innerHTML = `<i class="fas fa-exclamation-triangle mr-2"></i>FEHLER - ERNEUT VERSUCHEN`;
+            submitButton.classList.remove('bg-gray-500', 'cursor-not-allowed');
+            submitButton.classList.add('bg-red-500');
+
+            // Optionally display error message to user
+            const formContainer = document.getElementById('form-container');
+            let errorDisplay = formContainer.querySelector('.submission-error');
+            if (!errorDisplay) {
+                errorDisplay = document.createElement('p');
+                errorDisplay.className = 'submission-error text-red-600 text-sm mt-4 text-center';
+                formContainer.appendChild(errorDisplay);
+            }
+            errorDisplay.textContent = `Ein Fehler ist aufgetreten: ${error.message}. Bitte versuchen Sie es später erneut.`;
+
+
+            setTimeout(() => {
+                submitButton.innerHTML = originalButtonHTML;
+                submitButton.disabled = false;
+                submitButton.classList.remove('bg-red-500');
+                submitButton.classList.add('from-purple-600', 'to-pink-500');
+                if(errorDisplay) errorDisplay.remove(); // Remove error message
+            }, 5000);
+        }
+    });
+
+    // Smooth scroll for CTA buttons
+    document.querySelectorAll('a[href="#leadForm"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const targetElement = document.getElementById('leadForm');
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'center'
+                });
+                setTimeout(() => {
+                    const firstInput = targetElement.querySelector('input[type="text"], input[type="email"]');
+                    if (firstInput) {
+                        firstInput.focus();
+                    }
+                }, 500);
+            }
+        });
+    });
+
+    // Add keyframe animations dynamically if not covered by Tailwind
+    const styleSheet = document.createElement("style");
+    styleSheet.type = "text/css";
+    styleSheet.innerText = `
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .fa-spinner {
+            animation: spin 1s linear infinite;
+        }
+    `;
+    document.head.appendChild(styleSheet);
+
+    // Live validation feedback (optional, for better UX)
+    ['name', 'email'].forEach(id => {
+        const inputField = document.getElementById(id);
+        inputField.addEventListener('blur', function() {
+            let fieldIsValid = true;
+            this.classList.remove('border-red-500');
+            const nextErrorMsg = this.nextElementSibling;
+            if (nextErrorMsg && nextErrorMsg.classList.contains('error-message')) {
+                nextErrorMsg.remove();
+            }
+
+            if (this.id === 'name' && this.value.trim().length < 2) {
+                fieldIsValid = false;
+                this.classList.add('border-red-500');
+                const errorMsg = document.createElement('p');
+                errorMsg.className = 'error-message text-red-500 text-xs mt-1';
+                errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Name muss mind. 2 Zeichen lang sein.';
+                this.parentNode.insertBefore(errorMsg, this.nextSibling);
+            }
+            if (this.id === 'email') {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(this.value)) {
+                    fieldIsValid = false;
+                    this.classList.add('border-red-500');
+                    const errorMsg = document.createElement('p');
+                    errorMsg.className = 'error-message text-red-500 text-xs mt-1';
+                    errorMsg.innerHTML = '<i class="fas fa-exclamation-circle mr-1"></i>Bitte eine gültige E-Mail-Adresse eingeben.';
+                    this.parentNode.insertBefore(errorMsg, this.nextSibling);
+                }
+            }
+            if (fieldIsValid) {
+                this.classList.remove('border-red-500');
+                this.classList.add('border-green-500'); // Optional: green border for valid input
+            } else {
+                 this.classList.remove('border-green-500');
+            }
+        });
+        inputField.addEventListener('input', function() { // Remove green border on input
+            this.classList.remove('border-green-500');
+        });
+    });
+</script>
+
+</body>
+</html>
